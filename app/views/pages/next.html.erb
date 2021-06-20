@@ -1,9 +1,17 @@
 <div class="wrapper-bd">
     <div class="img-absolute">
+
+      <div class="arrow-left"></div>
       <%= image_tag("Abdullah_page1_testbapt.jpg", class: "image-popup") %>
-      <div class="popup" id="community"></div>
-      <div class="popup" id="promoteurs"></div>
-      <div class="popup" id="unhcr"></div>
+      <%#= image_tag("community_volunteer.jpg", class: "popup", id: "community") %>
+      <%= link_to root_path  do %>
+        <%= image_tag("fleche-droite.jpg", class: "arrow-right") %>
+      <% end %>
+
+      <div class="popup popup-abdullah" id="community"></div>
+      <div class="popup popup-abdullah" id="promoteurs"></div>
+      <div class="popup popup-abdullah" id="unhcr"></div>
+
 
     </div>
 

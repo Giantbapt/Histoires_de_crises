@@ -1,0 +1,26 @@
+.popup {
+    position: absolute;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    // background-color: blue;
+    background-position: center;
+
+}
+.popup:hover{
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.popup-anna:hover {
+  border-color: #03063d;
+
+}
+.popup-abdullah:hover {
+  border-color: #56161c;
+}
+.popup-kashka:hover {
+  border-color: #371400;
+}

@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-lg" id="navbar">
   <%= link_to root_path, class: "logo" do %>
-      <%= image_tag("titre.jpg", :class => "logo") %>
+      <%= image_tag("accueil/titre.jpg", :class => "logo") %>
     <% end %>
 
 
@@ -22,13 +22,15 @@
     <ul class="navbar-nav">
       <!-- <div class="nav-item"><a href="#demarche"> La démarche</a></div> -->
       <%= link_to root_path, class: "nav-item" do %>
-          <%= image_tag("a_propos.jpg") %>
+          <%= image_tag("accueil/a_propos.jpg") %>
       <% end %>
+      <a href="https://www.amel-humacoop.org/" target="blank" class="nav-item">
+          <%= image_tag("accueil/humacoop-amelfrance.jpg") %>
+      </a>
+
+
       <%= link_to root_path, class: "nav-item" do %>
-          <%= image_tag("humacoop-amelfrance.jpg") %>
-      <% end %>
-      <%= link_to root_path, class: "nav-item" do %>
-          <%= image_tag("shop.jpg") %>
+          <%= image_tag("accueil/shop.jpg") %>
       <% end %>
 
 
