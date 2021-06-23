@@ -8,6 +8,21 @@
   border: unset;
   background-color: unset;
   }
+#carte {
+    width: 20%;
+    height: 5%;
+    top: 58.8%;
+    right: 22%;
+}
+#carte:hover {
+    background-image: url(Kashka/intro/Kashka_carte.jpg);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    right: 0%;
+    left: unset;
+    border: unset;
+  }
 
 #missing-migrants {
     width: 20%;
