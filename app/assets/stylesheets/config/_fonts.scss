@@ -2,10 +2,26 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: "Akzidenz-Grotesk Pro", "Helvetica", "sans-serif";
+$headers-font: "Akzidenz-Grotesk Pro", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro';
+    src: url('AkzidenzGroteskPro-Light.eot');
+    src: url('AkzidenzGroteskPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('AkzidenzGroteskPro-Light.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-Light.woff') format('woff'),
+        url('AkzidenzGroteskPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+h1 {
+  font-family: 'Akzidenz-Grotesk Pro';
+}
+
+
 // @font-face {
 //   font-family: "Font Name";
 //   src: font-url('FontFile.eot');

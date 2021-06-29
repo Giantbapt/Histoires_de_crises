@@ -1,4 +1,7 @@
-      <%= image_tag("Abdullah/page1/Abdullah_page1.jpg", class: "image-popup") %>
+      <%= link_to abdullah_intro2_path  do %>
+          <%= image_tag("fleche-gauche.jpg", class: "arrow-left") %>
+      <% end %>
+            <%= image_tag("Abdullah/page1/Abdullah_page1.jpg", class: "image-popup") %>
       <%#= image_tag("community_volunteer.jpg", class: "popup", id: "community") %>
       <%= link_to abdullah_page2_path  do %>
         <%= image_tag("fleche-droite.jpg", class: "arrow-right") %>

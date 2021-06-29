@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
 
-  get 'next', to: 'pages#next', as: :next
+  get 'a_propos', to: 'pages#a_propos', as: :a_propos
 
   get 'abdullah_intro', to: 'abdullah#intro', as: :abdullah_intro
   get 'abdullah_intro2', to: 'abdullah#intro2', as: :abdullah_intro2

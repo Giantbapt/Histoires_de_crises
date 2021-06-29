@@ -33,6 +33,14 @@ body {
 
 }
 .arrow-left {
-  width: 5%;
-
+    width: 5%;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
 }
+.arrow-left:hover {
+    width: 6%;
+    left: -1%;
+}
+
+
