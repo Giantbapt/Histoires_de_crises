@@ -1,0 +1,25 @@
+document.onkeydown = checkKey;
+
+var blueRight = []
+var blueLeft = []
+
+function checkKey(e) {
+  console.log("hello bapt");
+  blueRight = document.getElementsByClassName('arrow-right')[0].parentElement.href;
+  blueLeft = document.getElementsByClassName('arrow-left')[0].parentElement.href;
+  console.log(blueRight);
+  console.log(blueLeft);
+    e = e || window.event;
+
+    if  (e.keyCode == '37') {
+       // left arrow
+       window.location.href = blueLeft;
+       // blue.clic
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       window.location.href = blueRight;
+    }
+
+}
+export { checkKey };

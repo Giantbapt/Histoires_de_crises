@@ -3,7 +3,7 @@
   min-height: calc(100vh - 100px);
   min-width: 100vw;
   background-color: white;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .portrait {
@@ -46,5 +46,38 @@
 #a_propos h1 {
   text-align: center;
     margin-top: 40px;
-    font-size: 40px;}
+    font-size: 40px;
+  }
+
+
+@media (max-width: 500px) {
+  .image-faits {
+        height: 27px;
+  }
+  .portrait {
+    height: 250px;
+  }
+  .wrapper {
+    padding-top: 60px;
+  }
+
+}
+
+@media (min-width: 501) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 998px) {
+
+
+
+}
+
+@media (min-width: 998px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
 
