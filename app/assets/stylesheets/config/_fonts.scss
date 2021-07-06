@@ -3,7 +3,7 @@
 
 // Define fonts for body and headers
 $body-font: "Akzidenz-Grotesk Pro", "Helvetica", "sans-serif";
-$headers-font: "Akzidenz-Grotesk Pro", "Helvetica", "sans-serif";
+$headers-font: "Akzidenz-Grotesk-Reg", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 @font-face {
@@ -18,8 +18,35 @@ $headers-font: "Akzidenz-Grotesk Pro", "Helvetica", "sans-serif";
     font-display: swap;
 }
 h1 {
-  font-family: 'Akzidenz-Grotesk Pro';
+  font-family: 'Akzidenz-Grotesk-Reg';
 }
+
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk-Reg';
+    src: url('AkzidenzGroteskBQ-Reg.eot');
+    src: url('AkzidenzGroteskBQ-Reg.eot?#iefix') format('embedded-opentype'),
+        url('AkzidenzGroteskBQ-Reg.woff2') format('woff2'),
+        url('AkzidenzGroteskBQ-Reg.woff') format('woff'),
+        url('AkzidenzGroteskBQ-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk-Medium';
+    src: url('AkzidenzGroteskBQ-Medium.eot');
+    src: url('AkzidenzGroteskBQ-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AkzidenzGroteskBQ-Medium.woff2') format('woff2'),
+        url('AkzidenzGroteskBQ-Medium.woff') format('woff'),
+        url('AkzidenzGroteskBQ-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 
 // @font-face {

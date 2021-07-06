@@ -50,14 +50,18 @@ body {
     position: absolute;
     left: 49%;
     z-index: 6;
+    font-family: 'Akzidenz-Grotesk-Reg';
 }
 .page-number p {
   font-size: 20px;
 }
-.page-number-anna p {
-  color: 20px;
-}
 
 .page-number-anna p {
-  color: #03063d;
+  color: $anna;
+}
+.page-number-abdullah p {
+  color: $abdullah;
+}
+.page-number-kashka p {
+  color: $kashka;
 }
