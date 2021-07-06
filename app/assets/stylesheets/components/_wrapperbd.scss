@@ -11,7 +11,7 @@ body {
 
 }
 .img-absolute{
-  position: absolute;
+  position: relative;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -24,7 +24,8 @@ body {
       width: 5%;
     position: absolute;
     right: 0px;
-    bottom: 10px;
+    bottom: -5%;
+    z-index: 6;
 
 }
 .arrow-right:hover {
@@ -36,11 +37,27 @@ body {
     width: 5%;
     position: absolute;
     left: 0px;
-    bottom: 10px;
+    bottom: -5%;
+    z-index: 6;
 }
 .arrow-left:hover {
     width: 6%;
     left: -1%;
 }
 
+.page-number {
+    width: 10%;
+    position: absolute;
+    left: 49%;
+    z-index: 6;
+}
+.page-number p {
+  font-size: 20px;
+}
+.page-number-anna p {
+  color: 20px;
+}
 
+.page-number-anna p {
+  color: #03063d;
+}

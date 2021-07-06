@@ -1,1 +1,23 @@
-intro2.html.erb
+     <%= link_to kashka_intro_path  do %>
+          <%= image_tag("fleche-gauche.jpg", class: "arrow-left") %>
+      <% end %>
+      <%= image_tag("Kashka/intro/Kashka_carte.jpg", class: "image-popup") %>
+
+      <a href="https://migration.iom.int/europe?type=arrivals" target="blank">
+        <div class="popup popup-kashka" id="flowmonitoring"></div>
+      </a>
+      <a href="https://missingmigrants.iom.int/region/mediterranean" target="blank">
+        <div class="popup popup-kashka" id="missing-migrants"></div>
+      </a>
+<!--       <div class="crop">
+        <%#= image_tag("Kashka/intro/Kashka_carte1.jpg", class: "popup kashka-carte") %>
+
+      </div>
+      <%#= image_tag("Kashka/intro/Kashka_carte2.jpg", class: "popup kashka-carte") %>
+      <%#= image_tag("Kashka/intro/Kashka_carte3.jpg", class: "popup kashka-carte") %> -->
+      <div class="popup popup-kashka" id="carte"></div>
+      <div class="popup popup-kashka" id="depart-lybie"></div>
+      <div class="popup popup-kashka" id="nationalites-iles"></div>
+      <%= link_to kashka_page1_path  do %>
+          <%= image_tag("fleche-droite.jpg", class: "arrow-right") %>
+      <% end %>
