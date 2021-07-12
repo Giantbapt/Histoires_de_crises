@@ -1,0 +1,5 @@
+meta_product_name: "Histoires de crises"
+meta_title: "Histoires De Crises, les oubliés des îles Grecques par Berille de Salins."
+meta_description: "Trois récits interactifs poignants scénarisés et illustrés par Bertille de Salins pour rendre compte de la situation des réfugigés d'une île Grecque pendant la crise sanitaire."
+meta_image: "cover.png" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
