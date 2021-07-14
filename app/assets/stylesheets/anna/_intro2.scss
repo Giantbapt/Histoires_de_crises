@@ -1,0 +1,155 @@
+.pie {
+overflow: hidden;
+    position: relative;
+    margin: 1em auto;
+    border: dashed 1px;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    // background-color: yellow;
+    width: 220px;
+    height: 220px;
+    bottom: 40%;
+    right: 26%;
+}
+.slice {
+  overflow: hidden;
+  position: absolute;
+  top: 0; right: 0;
+  width: 50%; height: 50%;
+  transform-origin: 0% 100%;
+}
+
+.slice:hover {
+      width: 50%;
+    height: 50%;
+    top: 37%;
+    right: 1%;
+    left: unset;
+}
+
+.slice-one {
+    transform: rotate(-4deg) skewY(4.5deg);
+}
+
+
+.slice-two {
+  transform: rotate(91deg) skewY(-42.5deg);
+}
+
+.slice-three {
+   transform: rotate(139deg) skewY(-52.5deg);
+}
+
+
+.slice-four {
+   transform: rotate(177deg) skewY(-69.5deg);
+
+}
+
+.slice-five {
+  transform: rotate(198deg) skewY(-69.5deg);
+}
+
+
+.slice-six {
+  transform: rotate(219deg) skewY(-68.5deg);
+}
+
+.slice-seven {
+    transform: rotate(239deg) skewY(-68.5deg);
+}
+
+.slice-height {
+  transform: rotate(260deg) skewY(-70.5deg);
+}
+.slice-nine {
+  transform: rotate(280deg) skewY(-70.5deg);
+}
+
+.slice-ten {
+    transform: rotate(300deg) skewY(-72.5deg);
+}
+
+.slice-eleven {
+  transform: rotate(318deg) skewY(-62.5deg);
+}
+
+// .slice-one:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+// }
+
+
+// .slice-two:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+// }
+
+// .slice-three:hover {
+//    background-image: url(Anna/intro/chios.jpg);
+// }
+
+
+// .slice-four:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+
+// }
+
+// .slice-five:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+// }
+
+
+// .slice-six:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+// }
+
+// .slice-seven:hover {
+//     background-image: url(Anna/intro/chios.jpg);
+// }
+
+// .slice-height:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+// }
+// .slice-nine:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+// }
+
+// .slice-ten:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+// }
+
+// .slice-eleven:hover {
+//   background-image: url(Anna/intro/chios.jpg);
+// }
+
+
+.slice-contents {
+  position: absolute;
+  left: -100%;
+  width: 200%; height: 200%;
+  border-radius: 50%;
+   transform: skewY(-7.5deg);
+}
+
+.chart-popup {
+    width: 50%;
+    height: 50%;
+    top: 37%;
+    right: 1%;
+    left: unset;
+    bottom: 15%;
+    border-color: #03063d;
+    background-color: white;
+    border: 2px solid;
+    z-index: -3;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    background-position: center;
+}
+
+.chart-afghanistan{
+  background-image: url(Anna/intro/chios.jpg);
+  z-index: 7;
+}

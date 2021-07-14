@@ -1,0 +1,20 @@
+var slices = document.querySelectorAll(".slice")
+var chartpopup = document.querySelector(".chart-popup")
+
+
+function revealChart(e) {
+  window.addEventListener('load', (event) => {
+      console.log("Hello chart");
+
+      slices.forEach(function(slice, index) {
+          slice.addEventListener('mouseenter', function(){
+          console.log("hello inside chart");
+          if (slice.className == "slice popup-anna slice-one") {
+            chartpopup.classList.add('chart-afghanistan');
+          }
+        })
+
+})
+}
+
+export { revealChart };
