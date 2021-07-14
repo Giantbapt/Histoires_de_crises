@@ -2,7 +2,7 @@
 overflow: hidden;
     position: relative;
     margin: 1em auto;
-    border: dashed 1px;
+
     padding: 0;
     border-radius: 50%;
     list-style: none;
@@ -26,6 +26,7 @@ overflow: hidden;
     top: 37%;
     right: 1%;
     left: unset;
+    cursor: pointer;
 }
 
 .slice-one {
@@ -60,7 +61,7 @@ overflow: hidden;
     transform: rotate(239deg) skewY(-68.5deg);
 }
 
-.slice-height {
+.slice-eight {
   transform: rotate(260deg) skewY(-70.5deg);
 }
 .slice-nine {
@@ -74,54 +75,6 @@ overflow: hidden;
 .slice-eleven {
   transform: rotate(318deg) skewY(-62.5deg);
 }
-
-// .slice-one:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-// }
-
-
-// .slice-two:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-// }
-
-// .slice-three:hover {
-//    background-image: url(Anna/intro/chios.jpg);
-// }
-
-
-// .slice-four:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-
-// }
-
-// .slice-five:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-// }
-
-
-// .slice-six:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-// }
-
-// .slice-seven:hover {
-//     background-image: url(Anna/intro/chios.jpg);
-// }
-
-// .slice-height:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-// }
-// .slice-nine:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-// }
-
-// .slice-ten:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-// }
-
-// .slice-eleven:hover {
-//   background-image: url(Anna/intro/chios.jpg);
-// }
-
 
 .slice-contents {
   position: absolute;
@@ -150,6 +103,39 @@ overflow: hidden;
 }
 
 .chart-afghanistan{
-  background-image: url(Anna/intro/chios.jpg);
+  background-image: url(Anna/intro2/afghanistan.jpg);
   z-index: 7;
 }
+.chart-albanie{
+  background-image: url(Anna/intro2/albanie.jpg);
+  z-index: 7;
+}
+.chart-drc{
+  background-image: url(Anna/intro2/drc.jpg);
+  z-index: 7;
+}
+.chart-irak{
+  background-image: url(Anna/intro2/irak.jpg);
+  z-index: 7;
+}
+.chart-pakistan{
+  background-image: url(Anna/intro2/pakistan.jpg);
+  z-index: 7;
+}
+.chart-palestine{
+  background-image: url(Anna/intro2/palestine.jpg);
+  z-index: 7;
+}
+.chart-somalie{
+  background-image: url(Anna/intro2/somalie.jpg);
+  z-index: 7;
+}
+.chart-syrie{
+  background-image: url(Anna/intro2/syrie.jpg);
+  z-index: 7;
+}
+.chart-turquie{
+  background-image: url(Anna/intro2/turquie.jpg);
+  z-index: 7;
+}
+

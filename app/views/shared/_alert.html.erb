@@ -4,3 +4,10 @@
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
+<script type="text/javascript">
+    var alerted = localStorage.getItem('alerted') || '';
+    if (alerted != 'yes') {
+     alert("My alert.");
+     localStorage.setItem('alerted','yes');
+    }
+</script>

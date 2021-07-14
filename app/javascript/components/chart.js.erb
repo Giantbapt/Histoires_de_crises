@@ -11,10 +11,54 @@ function revealChart(e) {
           console.log("hello inside chart");
           if (slice.className == "slice popup-anna slice-one") {
             chartpopup.classList.add('chart-afghanistan');
-          }
+          } else if (slice.className == "slice popup-anna slice-two") {
+            chartpopup.classList.add('chart-syrie')}
+            else if (slice.className == "slice popup-anna slice-three") {
+            chartpopup.classList.add('chart-pakistan')}
+            else if (slice.className == "slice popup-anna slice-four") {
+            chartpopup.classList.add('chart-drc')}
+            else if (slice.className == "slice popup-anna slice-five") {
+            chartpopup.classList.add('chart-afghanistan')}
+            else if (slice.className == "slice popup-anna slice-six") {
+            chartpopup.classList.add('chart-irak')}
+            else if (slice.className == "slice popup-anna slice-seven") {
+            chartpopup.classList.add('chart-turquie')}
+            else if (slice.className == "slice popup-anna slice-eight") {
+            chartpopup.classList.add('chart-albanie')}
+            else if (slice.className == "slice popup-anna slice-nine") {
+            chartpopup.classList.add('chart-somalie')}
+            else if (slice.className == "slice popup-anna slice-ten") {
+            chartpopup.classList.add('chart-palestine')}
         })
 
-})
+
+
+          slice.addEventListener('mouseleave', function(){
+          console.log("hello inside chart");
+          if (slice.className == "slice popup-anna slice-one") {
+            chartpopup.classList.remove('chart-afghanistan');
+          } else if (slice.className == "slice popup-anna slice-two") {
+            chartpopup.classList.remove('chart-syrie')}
+            else if (slice.className == "slice popup-anna slice-three") {
+            chartpopup.classList.remove('chart-pakistan')}
+            else if (slice.className == "slice popup-anna slice-four") {
+            chartpopup.classList.remove('chart-drc')}
+            else if (slice.className == "slice popup-anna slice-five") {
+            chartpopup.classList.remove('chart-afghanistan')}
+            else if (slice.className == "slice popup-anna slice-six") {
+            chartpopup.classList.remove('chart-irak')}
+            else if (slice.className == "slice popup-anna slice-seven") {
+            chartpopup.classList.remove('chart-turquie')}
+            else if (slice.className == "slice popup-anna slice-eight") {
+            chartpopup.classList.remove('chart-albanie')}
+            else if (slice.className == "slice popup-anna slice-nine") {
+            chartpopup.classList.remove('chart-somalie')}
+            else if (slice.className == "slice popup-anna slice-ten") {
+            chartpopup.classList.remove('chart-palestine')}
+        })
+
+    })
+  })
 }
 
 export { revealChart };
