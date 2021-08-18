@@ -58,17 +58,18 @@ width: 15%;
   // }
 
   .island-news {
-    height: 611px;
-    width: 512px;
+    height: 40%;
+    width: 35%;
     z-index: -1;
     position: absolute;
-    top: 230px;
+    top: 30%;
     left: 300px;
-    left: 300px;
+    left: 20%;
     background-color: white;
     border-color: #03063d;
     border: 2px solid;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 .islands {
     position: absolute;
@@ -78,6 +79,7 @@ width: 15%;
     cursor: pointer;
     // background-color: blue;
     background-position: center;
+    background-size: cover;
 }
   .news-lesbos{
   background-image: url(Anna/intro/lesbos.jpg);
@@ -98,4 +100,20 @@ width: 15%;
   .news-samos{
   background-image: url(Anna/intro/samos.jpg);
   z-index: 7;
+}
+
+@media (min-width: 501) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 998px) {
+
+}
+
+@media (min-width: 998px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
