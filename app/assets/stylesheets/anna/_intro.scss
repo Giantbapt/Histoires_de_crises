@@ -4,14 +4,14 @@ width: 15%;
     bottom: 15%;
     left: 36%;
 }
-#chios:hover {
-    background-image: url(Anna/intro/chios.jpg);
-    width: 50%;
-    height: 50%;
-    top: 37%;
-    right: 1%;
-    left: unset;
-  }
+// #chios:hover {
+//     background-image: url(Anna/intro/chios.jpg);
+//     width: 50%;
+//     height: 50%;
+//     top: 37%;
+//     right: 1%;
+//     left: unset;
+//   }
 
 #kos {
     width: 14%;
@@ -19,28 +19,28 @@ width: 15%;
     bottom: 15%;
   right: 18%;
 }
-#kos:hover {
-    background-image: url(Anna/intro/Kos.jpg);
-    width: 50%;
-    height: 50%;
-    top: 37%;
-    right: unset;
-    left: 1%;
-  }
+// #kos:hover {
+//     background-image: url(Anna/intro/Kos.jpg);
+//     width: 50%;
+//     height: 50%;
+//     top: 37%;
+//     right: unset;
+//     left: 1%;
+//   }
 #lesbos {
     width: 14%;
     height: 15%;
     bottom: 15%;
     left: 20%;
 }
-#lesbos:hover {
-    background-image: url(Anna/intro/lesbos.jpg);
-    width: 50%;
-    height: 50%;
-    top: 37%;
-    right: 1%;
-    left: unset;
-  }
+// #lesbos:hover {
+//     background-image: url(Anna/intro/lesbos.jpg);
+//     width: 50%;
+//     height: 50%;
+//     top: 37%;
+//     right: 1%;
+//     left: unset;
+//   }
 
 #samos {
     width: 14%;
@@ -48,11 +48,54 @@ width: 15%;
     bottom: 15%;
     right: 33%;
 }
-#samos:hover {
-    background-image: url(Anna/intro/samos.jpg);
-    width: 50%;
-    height: 50%;
-    top: 37%;
-    right: unset;
-    left: 1%;
+// #samos:hover {
+//     background-image: url(Anna/intro/samos.jpg);
+//     width: 50%;
+//     height: 50%;
+//     top: 37%;
+//     right: unset;
+//     left: 1%;
+  // }
+
+  .island-news {
+    height: 611px;
+    width: 512px;
+    z-index: -1;
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    left: 300px;
+    background-color: white;
+    border-color: #03063d;
+    border: 2px solid;
+    background-repeat: no-repeat;
   }
+.islands {
+    position: absolute;
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    // background-color: blue;
+    background-position: center;
+}
+  .news-lesbos{
+  background-image: url(Anna/intro/lesbos.jpg);
+  z-index: 7;
+
+}
+
+  .news-chios{
+  background-image: url(Anna/intro/chios.jpg);
+  z-index: 7;
+}
+
+  .news-kos{
+  background-image: url(Anna/intro/Kos.jpg);
+  z-index: 7;
+}
+
+  .news-samos{
+  background-image: url(Anna/intro/samos.jpg);
+  z-index: 7;
+}

@@ -30,10 +30,12 @@ import "bootstrap";
 // import { initSelect2 } from '../components/init_select2';
 import { checkKey } from '../components/keyboard.js.erb'
 import { revealChart } from '../components/chart.js.erb'
+import { revealIslands } from '../components/islands.js.erb'
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   checkKey()
   revealChart()
+  revealIslands()
 });

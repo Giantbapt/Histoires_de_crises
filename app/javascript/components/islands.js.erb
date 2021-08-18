@@ -1,0 +1,39 @@
+var islands = document.querySelectorAll(".islands")
+var islandNews = document.querySelector(".island-news")
+
+
+function revealIslands(e) {
+  window.addEventListener('load', (event) => {
+      console.log("Hello islands");
+
+      islands.forEach(function(island, index) {
+          island.addEventListener('mouseenter', function(){
+          console.log("hello inside islands");
+          if (island.className == "islands lesbos") {
+            islandNews.classList.add('news-lesbos');
+          } else if (island.className == "islands samos") {
+            islandNews.classList.add('news-samos')}
+            else if (island.className == "islands chios") {
+            islandNews.classList.add('news-chios')}
+            else if (island.className == "islands kos") {
+            islandNews.classList.add('news-kos')}
+        })
+
+          island.addEventListener('mouseleave', function(){
+          console.log("hello inside islands");
+          if (island.className == "islands lesbos") {
+            islandNews.classList.remove('news-lesbos');
+          } else if (island.className == "islands samos") {
+            islandNews.classList.remove('news-samos')}
+            else if (island.className == "islands chios") {
+            islandNews.classList.remove('news-chios')}
+            else if (island.className == "islands kos") {
+            islandNews.classList.remove('news-kos')}
+        })
+
+
+      })
+    })
+}
+
+export { revealIslands };
