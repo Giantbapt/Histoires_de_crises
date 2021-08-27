@@ -1,9 +1,10 @@
-var slices = document.querySelectorAll(".slice")
-var chartpopup = document.querySelector(".chart-popup")
 
 
-function revealChart(e) {
-  window.addEventListener('turbolinks:load', (event) => {
+const revealChart = (e) => {
+
+      const slices = document.querySelectorAll(".slice");
+      const chartpopup = document.querySelector(".chart-popup");
+
       console.log("Hello chart");
 
       slices.forEach(function(slice, index) {
@@ -61,8 +62,8 @@ function revealChart(e) {
             chartpopup.classList.add('chart-bangladesh')}
         })
 
-    })
-  })
+    });
 }
+
 
 export { revealChart };
