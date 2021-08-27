@@ -3,7 +3,7 @@ var islandNews = document.querySelector(".island-news")
 
 
 function revealIslands(e) {
-  window.addEventListener('load', (event) => {
+  window.addEventListener('turbolinks:load', (event) => {
       console.log("Hello islands");
 
       islands.forEach(function(island, index) {

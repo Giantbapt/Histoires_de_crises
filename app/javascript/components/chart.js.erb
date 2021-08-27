@@ -3,7 +3,7 @@ var chartpopup = document.querySelector(".chart-popup")
 
 
 function revealChart(e) {
-  window.addEventListener('load', (event) => {
+  window.addEventListener('turbolinks:load', (event) => {
       console.log("Hello chart");
 
       slices.forEach(function(slice, index) {
