@@ -2,9 +2,13 @@ var islands = document.querySelectorAll(".islands")
 var islandNews = document.querySelector(".island-news")
 
 
-function revealIslands(e) {
-  window.addEventListener('turbolinks:load', (event) => {
-      console.log("Hello islands");
+// function revealIslands(e) {
+// //   window.addEventListener('turbolinks:load', (event) => {
+//       console.log("Hello islands");
+
+const revealIslands = (e) => {
+  const islands = document.querySelectorAll(".islands");
+  const islandNews = document.querySelector(".island-news");
 
       islands.forEach(function(island, index) {
           island.addEventListener('mouseenter', function(){
@@ -33,7 +37,6 @@ function revealIslands(e) {
 
 
       })
-    })
-}
+    }
 
 export { revealIslands };
