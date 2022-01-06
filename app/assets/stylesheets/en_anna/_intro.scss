@@ -1,0 +1,142 @@
+#en_chios {
+width: 15%;
+    height: 15%;
+    bottom: 15%;
+    left: 36%;
+}
+// #chios:hover {
+//     background-image: url(Anna/intro/chios.jpg);
+//     width: 50%;
+//     height: 50%;
+//     top: 37%;
+//     right: 1%;
+//     left: unset;
+//   }
+
+#en_kos {
+    width: 14%;
+    height: 15%;
+    bottom: 15%;
+  right: 18%;
+}
+// #kos:hover {
+//     background-image: url(Anna/intro/Kos.jpg);
+//     width: 50%;
+//     height: 50%;
+//     top: 37%;
+//     right: unset;
+//     left: 1%;
+//   }
+#en_lesbos {
+    width: 14%;
+    height: 15%;
+    bottom: 15%;
+    left: 20%;
+}
+// #lesbos:hover {
+//     background-image: url(Anna/intro/lesbos.jpg);
+//     width: 50%;
+//     height: 50%;
+//     top: 37%;
+//     right: 1%;
+//     left: unset;
+//   }
+
+#en_samos {
+    width: 14%;
+    height: 15%;
+    bottom: 15%;
+    right: 33%;
+}
+// #samos:hover {
+//     background-image: url(Anna/intro/samos.jpg);
+//     width: 50%;
+//     height: 50%;
+//     top: 37%;
+//     right: unset;
+//     left: 1%;
+  // }
+
+  .island-news {
+    height: 40%;
+    width: 35%;
+    z-index: -1;
+    position: absolute;
+    top: 30%;
+    left: 300px;
+    left: 20%;
+    background-color: white;
+    border-color: #03063d;
+    border: 2px solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.islands {
+    position: absolute;
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    // background-color: blue;
+    background-position: center;
+    background-size: cover;
+}
+  .news-lesbos{
+  background-image: url(Anna/intro/lesbos.jpg);
+  z-index: 7;
+
+}
+
+  .news-chios{
+  background-image: url(Anna/intro/chios.jpg);
+  z-index: 7;
+}
+
+  .news-kos{
+  background-image: url(Anna/intro/Kos.jpg);
+  z-index: 7;
+}
+
+  .news-samos{
+  background-image: url(Anna/intro/samos.jpg);
+  z-index: 7;
+}
+
+//anglais
+  .en_news-lesbos{
+  background-image: url(en/Anna/intro/lesbos.jpg);
+  z-index: 7;
+
+}
+
+  .en_news-chios{
+  background-image: url(en/Anna/intro/chios.jpg);
+  z-index: 7;
+}
+
+  .en_news-kos{
+  background-image: url(en/Anna/intro/Kos.jpg);
+  z-index: 7;
+}
+
+  .en_news-samos{
+  background-image: url(en/Anna/intro/samos.jpg);
+  z-index: 7;
+}
+
+
+@media (min-width: 501) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 998px) {
+
+}
+
+@media (min-width: 998px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

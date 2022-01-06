@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   # get 'a_propos', to: 'pages#a_propos', as: :a_propos
 
-  get 'abdullah_intro', to: 'abdullah#intro'
+
   get 'abdullah_intro', to: 'abdullah#intro'
   get 'abdullah_intro2', to: 'abdullah#intro2', as: :abdullah_intro2
   get 'abdullah_page1', to: 'abdullah#page1', as: :abdullah_page1
@@ -63,6 +63,73 @@ Rails.application.routes.draw do
   get 'anna_page15', to: 'anna#page15', as: :anna_page15
   get 'anna_page16', to: 'anna#page16', as: :anna_page16
   get 'anna_page17', to: 'anna#page17', as: :anna_page17
+
+  #anglais
+
+  get 'en/home', to: 'en#home'
+
+  get 'en/abdullah_intro', to: 'en#abdullah_intro'
+  get 'en/abdullah_intro2', to: 'en#abdullah_intro2', as: :en_abdullah_intro2
+  get 'en/abdullah_page1', to: 'en#abdullah_page1', as: :en_abdullah_page1
+  get 'en/abdullah_page2', to: 'en#abdullah_page2', as: :en_abdullah_page2
+  get 'en/abdullah_page3', to: 'en#abdullah_page3', as: :en_abdullah_page3
+  get 'en/abdullah_page4', to: 'en#abdullah_page4', as: :en_abdullah_page4
+  get 'en/abdullah_page5', to: 'en#abdullah_page5', as: :en_abdullah_page5
+  get 'en/abdullah_page6', to: 'en#abdullah_page6', as: :en_abdullah_page6
+  get 'en/abdullah_page7', to: 'en#abdullah_page7', as: :en_abdullah_page7
+  get 'en/abdullah_page8', to: 'en#abdullah_page8', as: :en_abdullah_page8
+  get 'en/abdullah_page9', to: 'en#abdullah_page9', as: :en_abdullah_page9
+  get 'en/abdullah_page10', to: 'en#abdullah_page10', as: :en_abdullah_page10
+  get 'en/abdullah_page11', to: 'en#abdullah_page11', as: :en_abdullah_page11
+  get 'en/abdullah_page12', to: 'en#abdullah_page12', as: :en_abdullah_page12
+  get 'en/abdullah_page13', to: 'en#abdullah_page13', as: :en_abdullah_page13
+  get 'en/abdullah_page14', to: 'en#abdullah_page14', as: :en_abdullah_page14
+  get 'en/abdullah_page15', to: 'en#abdullah_page15', as: :en_abdullah_page15
+  get 'en/abdullah_page16', to: 'en#abdullah_page16', as: :en_abdullah_page16
+  get 'en/abdullah_page17', to: 'en#abdullah_page17', as: :en_abdullah_page17
+
+  get 'en/kashka_intro', to: 'en#kashka_intro', as: :en_kashka_intro
+  get 'en/kashka_intro2', to: 'en#kashka_intro2', as: :en_kashka_intro2
+  get 'en/kashka_page1', to: 'en#kashka_page1', as: :en_kashka_page1
+  get 'en/kashka_page2', to: 'en#kashka_page2', as: :en_kashka_page2
+  get 'en/kashka_page3', to: 'en#kashka_page3', as: :en_kashka_page3
+  get 'en/kashka_page4', to: 'en#kashka_page4', as: :en_kashka_page4
+  get 'en/kashka_page5', to: 'en#kashka_page5', as: :en_kashka_page5
+  get 'en/kashka_page6', to: 'en#kashka_page6', as: :en_kashka_page6
+  get 'en/kashka_page7', to: 'en#kashka_page7', as: :en_kashka_page7
+  get 'en/kashka_page8', to: 'en#kashka_page8', as: :en_kashka_page8
+  get 'en/kashka_page9', to: 'en#kashka_page9', as: :en_kashka_page9
+  get 'en/kashka_page10', to: 'en#kashka_page10', as: :en_kashka_page10
+  get 'en/kashka_page11', to: 'en#kashka_page11', as: :en_kashka_page11
+  get 'en/kashka_page12', to: 'en#kashka_page12', as: :en_kashka_page12
+  get 'en/kashka_page13', to: 'en#kashka_page13', as: :en_kashka_page13
+  get 'en/kashka_page14', to: 'en#kashka_page14', as: :en_kashka_page14
+  get 'en/kashka_page15', to: 'en#kashka_page15', as: :en_kashka_page15
+  get 'en/kashka_page16', to: 'en#kashka_page16', as: :en_kashka_page16
+  get 'en/kashka_page17', to: 'en#kashka_page17', as: :en_kashka_page17
+
+  get 'en/anna_intro', to: 'en#anna_intro', as: :en_anna_intro
+  get 'en/anna_intro2', to: 'en#anna_intro2', as: :en_anna_intro2
+  get 'en/anna_page1', to: 'en#anna_page1', as: :en_anna_page1
+  get 'en/anna_page2', to: 'en#anna_page2', as: :en_anna_page2
+  get 'en/anna_page3', to: 'en#anna_page3', as: :en_anna_page3
+  get 'en/anna_page4', to: 'en#anna_page4', as: :en_anna_page4
+  get 'en/anna_page5', to: 'en#anna_page5', as: :en_anna_page5
+  get 'en/anna_page6', to: 'en#anna_page6', as: :en_anna_page6
+  get 'en/anna_page7', to: 'en#anna_page7', as: :en_anna_page7
+  get 'en/anna_page8', to: 'en#anna_page8', as: :en_anna_page8
+  get 'en/anna_page9', to: 'en#anna_page9', as: :en_anna_page9
+  get 'en/anna_page10', to: 'en#anna_page10', as: :en_anna_page10
+  get 'en/anna_page11', to: 'en#anna_page11', as: :en_anna_page11
+  get 'en/anna_page12', to: 'en#anna_page12', as: :en_anna_page12
+  get 'en/anna_page13', to: 'en#anna_page13', as: :en_anna_page13
+  get 'en/anna_page14', to: 'en#anna_page14', as: :en_anna_page14
+  get 'en/anna_page15', to: 'en#anna_page15', as: :en_anna_page15
+  get 'en/anna_page16', to: 'en#anna_page16', as: :en_anna_page16
+  get 'en/anna_page17', to: 'en#anna_page17', as: :en_anna_page17
+
+
+
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

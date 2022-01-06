@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HistoiresDeCrises</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <% content_for :meta_title, "The Left Behind, Story of crisis by Bertille De Salins" %>
+    <% content_for :meta_description, "Three poignant interactive stories scripted and illustrated by Bertille de Salins to report on the situation of refugees from a Greek island during the health crisis." %>
+    <% content_for :meta_image, "en_cover.png"%>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+  </head>
+
+  <body>
+    <%= render 'shared/en_navbar' %>
+    <div class="wrapper-bd">
+      <div class="img-absolute">
+         <%= yield %>
+      </div>
+    </div>
+    <%= render 'shared/en_footer' %>
+  </body>
+</html>

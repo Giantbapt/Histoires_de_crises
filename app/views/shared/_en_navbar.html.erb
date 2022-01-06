@@ -1,0 +1,48 @@
+<div class="navbar navbar-expand-lg" id="navbar">
+  <%= link_to en_home_path, class: "logo" do %>
+      <%= image_tag("en/accueil/titre_anglais.jpg", :class => "logo") %>
+    <% end %>
+
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><svg class="bi bi-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg></span>
+  </button>
+
+<!--  <div class="nav-list row">
+    <div class="nav-item"><a href="#demarche"> La démarche</a></div>
+    <div class="nav-item">Ressources</div>
+    <div class="nav-item"><a href="#sondage">Répondre au questionnaire</a></div>
+    <div class="nav-item">Résultats</div>
+    <div class="nav-item"><a href="#team">L'équipe</a></div>
+  </div> -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <!-- <div class="nav-item"><a href="#demarche"> La démarche</a></div> -->
+
+      <%= link_to root_path(anchor: 'apropos')  , class: "nav-item" do %>
+          <%= image_tag("en/accueil/a_propos.jpg") %>
+      <% end %>
+      <a href="https://www.amel-humacoop.org/" target="blank" class="nav-item">
+          <%= image_tag("accueil/humacoop-amelfrance.jpg") %>
+      </a>
+      <a href="https://www.helloasso.com/associations/humacoop-amel-france/evenements/prevente-bande-dessinee-les-oublies-des-iles-grecques-histoires-de-crises?fbclid=IwAR17Te9307o0LHaSA0A2YMICZbLHOaDLdzE8pgrjxAsvtmIMR4MG9m7lnyk" target="blank" class="nav-item" id="shop">
+          <%= image_tag("accueil/shop.jpg") %>
+      </a>
+
+
+
+
+
+    <%#= link_to "Suivez-nous !", root_path(anchor: 'suivez-nous'), class: 'nav-item' %>
+      <%#= link_to "Vos suggestions", root_path(anchor: 'suggestions'), class: 'nav-item'  %>
+      <%#= link_to "Galerie", galeries_path , class: 'nav-item' %>
+      <%#= link_to "Videos", videos_path , class: 'nav-item' %>
+      <%#= link_to "Nos petites histoires", articles_path, class: 'nav-item'%>
+
+      <!-- <div class="nav-item"><a href="#team">L'équipe</a></div> -->
+    </ul>
+  </div>
+</div>
