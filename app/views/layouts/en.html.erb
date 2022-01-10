@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HistoiresDeCrises</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+        <title>The Left Behind, Story of crisis by Bertille De Salins</title>
+    <meta name="description" content="<%= meta_description %>">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="The Left Behind, Story of crisis by Bertille De Salins" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="en_cover.png" />
+    <meta property="og:description" content="Three poignant interactive stories scripted and illustrated by Bertille de Salins to report on the situation of refugees from a Greek island during the health crisis." />
+    <meta property="og:site_name" content="The Left Behind, Story of crisis by Bertille De Salins" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<%= DEFAULT_META["twitter_account"] %>">
+    <meta name="twitter:title" content="<The Left Behind, Story of crisis by Bertille De Salins">
+    <meta name="twitter:description" content="Three poignant interactive stories scripted and illustrated by Bertille de Salins to report on the situation of refugees from a Greek island during the health crisis.">
+    <meta name="twitter:creator" content="<%= DEFAULT_META["twitter_account"] %>">
+    <meta name="twitter:image:src" content="en_cover.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%#= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
+    <%= favicon_link_tag asset_path('Fav_icon.png') %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+
     <% content_for :meta_title, "The Left Behind, Story of crisis by Bertille De Salins" %>
     <% content_for :meta_description, "Three poignant interactive stories scripted and illustrated by Bertille de Salins to report on the situation of refugees from a Greek island during the health crisis." %>
     <% content_for :meta_image, "en_cover.png"%>

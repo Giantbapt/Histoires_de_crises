@@ -1,5 +1,5 @@
 <div class="navbar navbar-expand-lg" id="navbar">
-  <%= link_to en_home_path, class: "logo" do %>
+  <%= link_to en_path, class: "logo" do %>
       <%= image_tag("en/accueil/titre_anglais.jpg", :class => "logo") %>
     <% end %>
 
@@ -20,7 +20,7 @@
     <ul class="navbar-nav">
       <!-- <div class="nav-item"><a href="#demarche"> La démarche</a></div> -->
 
-      <%= link_to root_path(anchor: 'apropos')  , class: "nav-item" do %>
+      <%= link_to en_path(anchor: 'apropos')  , class: "nav-item" do %>
           <%= image_tag("en/accueil/about_anglais.jpg") %>
       <% end %>
       <a href="https://www.amel-humacoop.org/" target="blank" class="nav-item">
@@ -37,7 +37,7 @@
 
       <%= image_tag("separateur.png", class: "separateur") %>
 
-      <%= link_to en_home_path  , class: "nav-item langage-item" do %>
+      <%= link_to en_path  , class: "nav-item langage-item" do %>
           <%= image_tag("anglais.png") %>
       <% end %>
 

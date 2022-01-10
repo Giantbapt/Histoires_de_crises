@@ -66,7 +66,7 @@ Rails.application.routes.draw do
 
   #anglais
 
-  get 'en/home', to: 'en#home'
+  get 'en', to: 'en#home'
 
   get 'en/abdullah_intro', to: 'en#abdullah_intro'
   get 'en/abdullah_intro2', to: 'en#abdullah_intro2', as: :en_abdullah_intro2
