@@ -3,6 +3,19 @@
   background: white;
 }
 
+.navbar-toggler-icon {
+  background-image: url("accueil/home_anglais.jpg");
+}
+
+.separateur {
+  width: 20px;
+}
+
+.langage-item {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
