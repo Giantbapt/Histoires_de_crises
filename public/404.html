@@ -5,45 +5,67 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <style>
+    .wrapper-bd {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+      }
+      .wrapper {
+    min-height: calc(100vh - 100px);
+    min-width: 100vw;
+    background-color: white;
+    padding-top: 100px;
+}
+.img-absolute {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.portrait {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    background-position: center;
+}
+#Kashka {
+    background-image: url(accueil/Kashka_NB.jpg);
+}
+#Abdullah {
+    background-image: url(accueil/Abdullah_NB.jpg);
+}
+#Anna {
+    background-image: url(accueil/Anna_NB.jpg);
+}
+.wrapper {
+  justify-content: center;
+}
+.text {
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
 
   </style>
+
 </head>
 
 <body class="rails-default-error-page">
-  <!-- This file lives in public/404.html -->
-  <div class="nav">
-    <div class="logo">
-      <img src="images/titre.jpg" alt="" href="https://histoiresdecrises.eu">
-    </div>
+
+  <a class="logo" href="/en">
+      <img class="logo" src="/assets/en/accueil/titre_anglais-5221817ebe3ccac36799d85d62bb71394a1a8f6a4b38c0917f9174cf604b6ff2.jpg">
+</a>
+<div class="wrapper">
+  <h1 class= "text">The page you were looking for doesn't exist (404)</h1>
+  <div class="row">
+    <img src="assets/accueil/Kashka_NB.jpg" class="portrait" alt="">
+    <img src="assets/accueil/Abdullah_NB.jpg" class="portrait" alt="">
+    <img src="assets/accueil/Anna_NB.jpg" class="portrait" alt="">
   </div>
-  <div class="hom">
 
-    <%= link_to kashka_intro_path, class: "offset-md-1 col-md-3" do %>
-        <div class="portrait" id="Kashka">
+</div>
 
-       </div>
-
-    <% end %>
-    <%= link_to abdullah_intro_path, class: "col-md-4" do %>
-      <div class="portrait" id="Abdullah">
-
-      </div>
-    <% end %>
-    <%= link_to anna_intro_path, class: "col-md-3" do %>
-      <div class="portrait" id="Anna">
-
-      </div>
-    <% end %>
-  </div>
-    <div class="dialog">
-      <div>
-        <h1>The page you were looking for doesn't exist.</h1>
-        <p>You may have mistyped the address or the page may have moved.</p>
-      </div>
-      <p>If you are the application owner check the logs for more information.</p>
-    </div>
-
-
-  </div>
 </body>
 </html>
